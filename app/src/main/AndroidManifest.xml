@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OffersCouponsMVVM">
         <activity android:name=".view.CouponDetailActivity"></activity>
-        <activity android:name=".view.MainActivity">
+        <activity android:name=".view.MainActivity"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
